@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsT</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+    <h1>俺のToDoアプリケーション</h1>
+
+    <div id="wrapper">
+      <header>
+        <%= link_to 'New Todo', new_todo_path %>
+      </header>
+      <%= yield %>
+    </div>
+
+</body>
+</html>
