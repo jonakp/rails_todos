@@ -1,4 +1,4 @@
 # README
 ## Todos
-シンプルなTodoリスト
-Rails 復習用
+- シンプルなTodoリスト  
+- Rails 復習用
